@@ -1,0 +1,31 @@
+{
+  "name": "videoframe",
+  "version": "0.2.2",
+  "description": "VideoFrame - HTML5 Video - SMPTE Time Code capturing and Frame Seeking API",
+  "main": "VideoFrame.js",
+  "scripts": {
+  	  "prepublish": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lattwood/VideoFrame.git"
+  },
+  "keywords": [
+    "video",
+    "smpte",
+    "frame",
+    "seeking"
+  ],
+  "author": "Allen Sarkisyan <allen@x3techgroup.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lattwood/VideoFrame/issues"
+  },
+  "homepage": "https://github.com/lattwood/VideoFrame#readme",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sourcemaps": "^1.5.2",
+    "gulp-uglify": "^1.4.0"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "name": "videoframe",
+  "main": "VideoFrame.js",
+  "homepage": "https://github.com/lattwood/VideoFrame",
+  "authors": [
+    "Allen Sarkisyan <allen@x3techgroup.com>"
+  ],
+  "description": "VideoFrame - HTML5 Video - SMPTE Time Code capturing and Frame Seeking API",
+  "keywords": [
+    "video",
+    "smpte",
+    "frame",
+    "seeking"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
