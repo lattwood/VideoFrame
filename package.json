@@ -3,6 +3,9 @@
   "version": "0.2.2",
   "description": "VideoFrame - HTML5 Video - SMPTE Time Code capturing and Frame Seeking API",
   "main": "VideoFrame.js",
+  "scripts": {
+  	  "prepublish": "gulp"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/lattwood/VideoFrame.git"
@@ -21,8 +24,6 @@
   "homepage": "https://github.com/lattwood/VideoFrame#readme",
   "devDependencies": {
     "gulp": "^3.9.0",
-    "gulp-concat": "^2.6.0",
-    "gulp-minify": "0.0.5",
     "gulp-rename": "^1.2.2",
     "gulp-sourcemaps": "^1.5.2",
     "gulp-uglify": "^1.4.0"
